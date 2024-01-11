@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp.Light" parent="Theme.MaterialComponents.Light">
+        <item name="iconColor">#FF49454F</item>
+        <item name="selectedOptionColor">#FF49454F</item>
+    </style>
+
+    <style name="Theme.MyApp.Dark" parent="Theme.MaterialComponents">
+        <item name="iconColor">#FFCAC4D0</item>
+        <item name="selectedOptionColor">#FFCAC4D0</item>
+    </style>
+</resources>

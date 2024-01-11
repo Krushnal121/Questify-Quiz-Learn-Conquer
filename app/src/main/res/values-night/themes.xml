@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Questify" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="iconColor">#FFCAC4D0</item>
+        <item name="selectedOptionColor">@color/selectedOptionColorDark</item>
+    </style>
+</resources>

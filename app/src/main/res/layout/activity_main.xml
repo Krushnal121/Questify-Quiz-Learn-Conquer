@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/slagless"
+                android:gravity="center"
+                android:text="Questify"
+                android:textSize="35dp"
+                android:paddingHorizontal="35dp"
+                android:paddingTop="5dp">
+
+            </TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+
+                app:cardCornerRadius="35dp"
+                app:layout_constraintDimensionRatio="1:1">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bannerImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nothing"
+                    app:layout_constraintDimensionRatio="1:1"></ImageView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/slagless"
+                android:gravity="center"
+                android:text="So which quiz would you like to solve today ¿"
+                android:textSize="30dp"
+                android:paddingHorizontal="40dp"
+                android:layout_gravity="center">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/scienceCard"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp" >
+
+                    <Button
+                        android:id="@+id/scienceBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/science"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Science"
+                            android:fontFamily="@font/cookie"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:paddingHorizontal="5dp">
+                        </TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/historyCard"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/historyBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/book"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/cookie"
+                            android:paddingLeft="5dp"
+                            android:text="History"
+                            android:textSize="25dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/genKCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/genKBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/genk"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/cookie"
+                            android:paddingHorizontal="5dp"
+                            android:text="Gen.K"
+                            android:textSize="25dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/techCard"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/techBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/tech"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/cookie"
+                            android:paddingHorizontal="5dp"
+                            android:layout_marginLeft="7dp"
+                            android:text="Tech"
+                            android:textSize="25dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/randomCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/randomBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/bolt"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/cookie"
+                            android:paddingHorizontal="5dp"
+                            android:text="Randon"
+                            android:textSize="25dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/infoCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="35dp"
+                    android:background="@color/cardNormalBackground"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_margin="5dp">
+
+                    <Button
+                        android:id="@+id/infoBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent">
+
+                    </Button>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/info"
+                            android:paddingLeft="5dp">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/cookie"
+                            android:paddingHorizontal="5dp"
+                            android:text="Info"
+                            android:textSize="25dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/cookie"
+                android:gravity="center"
+                android:paddingHorizontal="40dp"
+                android:text="Quiz, Learn, Conquer"
+                android:textSize="35dp"
+                android:layout_marginBottom="35dp"></TextView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
