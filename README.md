@@ -46,4 +46,4 @@ Feel free to fork, contribute, and enhance the Questify experience. Happy quizzi
 </p>
 
 ## Demo of Application
-[<img src="https://github.com/Krushnal121/Questify-Quiz-Learn-Conquer/assets/109232748/3f233429-5524-40f8-bd35-54182f65060c" width="100%">](https://drive.google.com/file/d/1nr1ipfrb2xgGgmk5K-GE9la5p5XzWzMM/view?usp=drive_link "Demo of Application")
+[<img src="https://github.com/Krushnal121/Questify-Quiz-Learn-Conquer/assets/109232748/b676c9a4-96e7-4bfd-acd8-56a036d2036e" width="100%">](https://drive.google.com/file/d/1nr1ipfrb2xgGgmk5K-GE9la5p5XzWzMM/view?usp=drive_link "Demo of Application")
