@@ -12,18 +12,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".MainActivity"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:context=".MainActivity">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/slagless"
                 android:gravity="center"
-                android:text="Questify"
-                android:textSize="35dp"
                 android:paddingHorizontal="35dp"
-                android:paddingTop="5dp">
+                android:paddingTop="5dp"
+                android:text="Questify"
+                android:textSize="35dp">
 
             </TextView>
 
@@ -50,8 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -125,10 +125,9 @@
                             android:id="@+id/BBtnIcon"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/checkempty"
-                            android:layout_marginLeft="20dp"
                             android:layout_gravity="center"
-                            >
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/checkempty">
 
                         </ImageView>
 
@@ -172,10 +171,9 @@
                             android:id="@+id/CBtnIcon"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/checkempty"
-                            android:layout_marginLeft="20dp"
                             android:layout_gravity="center"
-                            >
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/checkempty">
 
                         </ImageView>
 
@@ -250,11 +248,12 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="50dp"
+                android:background="#ebddfe"
                 app:cardCornerRadius="35dp"
-                android:layout_gravity="center"
-                android:background="#ebddfe">
+                android:layout_marginBottom="5dp">
 
                 <Button
                     android:id="@+id/nextBtn"
