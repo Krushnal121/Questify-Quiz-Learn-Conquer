@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         genKButton.setOnClickListener {
-            startQuizActivity("genK")
+            startQuizActivity("gen_knowledge")
         }
 
         techButton.setOnClickListener {
