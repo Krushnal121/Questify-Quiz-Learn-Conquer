@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675109042073",
+    "project_id": "questifydb",
+    "storage_bucket": "questifydb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675109042073:android:12aa0ee57cd495f146c508",
+        "android_client_info": {
+          "package_name": "com.example.questify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM3FThcVSeZYcR-lYuaM-Co1qXaBobwAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
