@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -40,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:32.7.4"))
     implementation("com.github.bumptech.glide:glide:4.14.2")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
@@ -48,8 +50,8 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
     implementation("com.google.firebase:firebase-inappmessaging-ktx:20.4.0")
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("com.google.firebase:firebase-database:20.3.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
 }
