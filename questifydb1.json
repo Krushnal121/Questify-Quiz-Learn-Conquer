@@ -1,0 +1,416 @@
+{
+  "quizzes": {
+    "science": {
+      "question1": {
+          "question": "What is the chemical symbol for water?",
+          "options": [
+            "H2O",
+            "CO2",
+            "O2",
+            "NaCl"
+          ],
+          "answerIndex": 0
+        },
+        "question2": {
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Venus"
+          ],
+          "answerIndex": 1
+        },
+        "question3": {
+          "question": "What is the powerhouse of the cell?",
+          "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Endoplasmic reticulum",
+            "Golgi apparatus"
+          ],
+          "answerIndex": 1
+        },
+        "question4": {
+          "question": "Which gas do plants absorb during photosynthesis?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen"
+          ],
+          "answerIndex": 1
+        },
+        "question5": {
+          "question": "What is the largest mammal on Earth?",
+          "options": [
+            "Elephant",
+            "Blue whale",
+            "Giraffe",
+            "Hippopotamus"
+          ],
+          "answerIndex": 1
+        },
+        "question6": {
+          "question": "What is the process by which plants make their own food?",
+          "options": [
+            "Respiration",
+            "Transpiration",
+            "Photosynthesis",
+            "Fermentation"
+          ],
+          "answerIndex": 2
+        },
+        "question7": {
+          "question": "Which scientist is famous for his theory of relativity?",
+          "options": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Albert Einstein",
+            "Stephen Hawking"
+          ],
+          "answerIndex": 2
+        },
+        "question8": {
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Cu"
+          ],
+          "answerIndex": 0
+        },
+        "question9": {
+          "question": "Which gas makes up the majority of Earth's atmosphere?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Argon"
+          ],
+          "answerIndex": 1
+        },
+        "question10": {
+          "question": "What is the smallest bone in the human body?",
+          "options": [
+            "Femur",
+            "Stapes",
+            "Radius",
+            "Ulna"
+          ],
+          "answerIndex": 1
+        }
+
+    },
+    "history": {
+      "question1": {
+        "question": "Who was the first Emperor of the Maurya Dynasty in ancient India?",
+        "options": [
+          "Chandragupta Maurya",
+          "Ashoka the Great",
+          "Bindusara",
+          "Kanishka"
+        ],
+        "answerIndex": 0
+      },
+      "question2": {
+        "question": "In which year did Christopher Columbus first reach the Americas?",
+        "options": [
+          "1492",
+          "1521",
+          "1607",
+          "1776"
+        ],
+        "answerIndex": 0
+      },
+      "question3": {
+        "question": "Who was the first President of the United States?",
+        "options": [
+          "John Adams",
+          "Thomas Jefferson",
+          "George Washington",
+          "Abraham Lincoln"
+        ],
+        "answerIndex": 2
+      },
+      "question4": {
+        "question": "During which war did the Battle of Gettysburg take place?",
+        "options": [
+          "American Revolution",
+          "Civil War",
+          "World War I",
+          "World War II"
+        ],
+        "answerIndex": 1
+      },
+      "question5": {
+        "question": "Who was the Mughal Emperor who built the Taj Mahal?",
+        "options": [
+          "Humayun",
+          "Akbar",
+          "Shah Jahan",
+          "Aurangzeb"
+        ],
+        "answerIndex": 2
+      },
+      "question6": {
+        "question": "Which ancient civilization is known for the construction of the Great Wall?",
+        "options": [
+          "Egyptian",
+          "Roman",
+          "Chinese",
+          "Greek"
+        ],
+        "answerIndex": 2
+      },
+      "question7": {
+        "question": "Who was known as \"Iron Man\" of India",
+        "options": [
+          "Indira Gandhi",
+          "Jawaharlal Nehru",
+          "Sardar Patel",
+          "Rajiv Gandhi"
+        ],
+        "answerIndex": 2
+      },
+      "question8": {
+        "question": "In which year did the French Revolution begin?",
+        "options": [
+          "1776",
+          "1789",
+          "1804",
+          "1830"
+        ],
+        "answerIndex": 1
+      },
+      "question9": {
+        "question": "Who was the leader of the Indian independence movement known as Netaji ?",
+        "options": [
+          "Subhas Chandra Bose",
+          "Jawaharlal Nehru",
+          "Mahatma Gandhi",
+          "Bhagat Singh"
+        ],
+        "answerIndex": 0
+      },
+      "question10": {
+        "question": "Which ancient city is known as the 'City of David'?",
+        "options": [
+          "Athens",
+          "Rome",
+          "Jerusalem",
+          "Babylon"
+        ],
+        "answerIndex": 2
+      }
+    },
+    "gen_knowledge": {
+      "question1": {
+        "question": "Which river is the longest in the world?",
+        "options": [
+          "Nile",
+          "Amazon",
+          "Yangtze",
+          "Mississippi"
+        ],
+        "answerIndex": 0
+      },
+      "question2": {
+        "question": "What is the capital city of Australia?",
+        "options": [
+          "Sydney",
+          "Canberra",
+          "Melbourne",
+          "Brisbane"
+        ],
+        "answerIndex": 1
+      },
+      "question3": {
+          "question": "Which country is known as the 'Land of the Rising Sun'?",
+          "options": [
+            "China",
+            "Japan",
+            "South Korea",
+            "Vietnam"
+          ],
+          "answerIndex": 1
+        },
+        "question4": {
+          "question": "Who wrote the play 'Romeo and Juliet'?",
+          "options": [
+            "Charles Dickens",
+            "William Shakespeare",
+            "Jane Austen",
+            "Leo Tolstoy"
+          ],
+          "answerIndex": 1
+        },
+        "question5": {
+          "question": "What is the currency of Brazil?",
+          "options": [
+            "Peso",
+            "Real",
+            "Rupee",
+            "Dollar"
+          ],
+          "answerIndex": 1
+        },
+        "question6": {
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+          ],
+          "answerIndex": 3
+        },
+        "question7": {
+          "question": "Which famous landmark is located in the center of Paris, France?",
+          "options": [
+            "Eiffel Tower",
+            "Big Ben",
+            "Statue of Liberty",
+            "Colosseum"
+          ],
+          "answerIndex": 0
+        },
+        "question8": {
+          "question": "What is the world's largest desert by area?",
+          "options": [
+            "Sahara Desert",
+            "Arabian Desert",
+            "Gobi Desert",
+            "Antarctica"
+          ],
+          "answerIndex": 0
+        },
+        "question9": {
+          "question": "Who is the author of 'To Kill a Mockingbird'?",
+          "options": [
+            "J.K. Rowling",
+            "Harper Lee",
+            "George Orwell",
+            "Mark Twain"
+          ],
+          "answerIndex": 1
+        },
+        "question10": {
+          "question": "In which year did the Berlin Wall fall, marking the end of the Cold War?",
+          "options": [
+            "1989",
+            "1991",
+            "1985",
+            "1993"
+          ],
+          "answerIndex": 1
+        }
+      },
+      "tech": {
+        "question1": {
+          "question": "What is the popular programming language developed by Google?",
+          "options": [
+            "Java",
+            "Python",
+            "C#",
+            "Go"
+          ],
+          "answerIndex": 3
+        },
+        "question2": {
+          "question": "Which company developed the Android operating system?",
+          "options": [
+            "Apple",
+            "Microsoft",
+            "Google",
+            "Samsung"
+          ],
+          "answerIndex": 2
+        },
+        "question3": {
+          "question": "What does CPU stand for in computer terms?",
+          "options": [
+            "Central Processing Unit",
+            "Computer Processing Unit",
+            "Central Processor Unit",
+            "Central Peripheral Unit"
+          ],
+          "answerIndex": 0
+        },
+        "question4": {
+          "question": "Which social media platform is known for its character limit in posts?",
+          "options": [
+            "Instagram",
+            "Facebook",
+            "Twitter",
+            "LinkedIn"
+          ],
+          "answerIndex": 2
+        },
+        "question5": {
+          "question": "What is the purpose of a firewall in computer security?",
+          "options": [
+            "Virus Removal",
+            "Unauthorized Access Prevention",
+            "Data Encryption",
+            "File Backup"
+          ],
+          "answerIndex": 1
+        },
+        "question6": {
+          "question": "Which programming language is commonly used for web development and design?",
+          "options": [
+            "Swift",
+            "HTML",
+            "Ruby",
+            "Objective-C"
+          ],
+          "answerIndex": 1
+        },
+        "question7": {
+          "question": "What is the term for the process of converting source code into machine code?",
+          "options": [
+            "Compiling",
+            "Debugging",
+            "Interpreting",
+            "Linking"
+          ],
+          "answerIndex": 0
+        },
+        "question8": {
+          "question": "Which tech company is associated with the slogan 'Think Different'?",
+          "options": [
+            "Microsoft",
+            "IBM",
+            "Apple",
+            "Google"
+          ],
+          "answerIndex": 2
+        },
+        "question9": {
+          "question": "What does the acronym 'URL' stand for in the context of the internet?",
+          "options": [
+            "Uniform Resource Locator",
+            "Universal Resource Locator",
+            "Unified Resource Locator",
+            "Ultimate Resource Locator"
+          ],
+          "answerIndex": 0
+        },
+        "question10": {
+          "question": "Which of the following is not a type of computer memory?",
+          "options": [
+            "RAM",
+            "ROM",
+            "CPU",
+            "Cache"
+          ],
+          "answerIndex": 2
+        }
+      }
+    }
+  }
+
+
+

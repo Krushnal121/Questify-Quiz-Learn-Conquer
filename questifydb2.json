@@ -1,0 +1,415 @@
+{
+    "quizzes": {
+    "science": {
+    "question1": {
+    "question": "What is the process by which the sun generates energy?",
+    "options": [
+    "Nuclear fusion",
+    "Chemical reaction",
+    "Burning of fossil fuels",
+    "Solar radiation reflection"
+    ],
+    "answerIndex": 0
+    },
+    "question2": {
+    "question": "What is the layer of the atmosphere that protects us from most harmful solar radiation?",
+    "options": [
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere"
+    ],
+    "answerIndex": 1
+    },
+    "question3": {
+    "question": "What instrument is used to measure earthquakes?",
+    "options": [
+    "Telescope",
+    "Microscope",
+    "Seismograph",
+    "Barometer"
+    ],
+    "answerIndex": 2
+    },
+    "question4": {
+    "question": "What is the basic unit of heredity passed down from parents to offspring?",
+    "options": [
+    "Cell",
+    "Gene",
+    "Chromosome",
+    "Tissue"
+    ],
+    "answerIndex": 1
+    },
+    "question5": {
+    "question": "What is the process by which sound waves travel?",
+    "options": [
+    "Through vibrations",
+    "Through light waves",
+    "Through electricity",
+    "Through magnetism"
+    ],
+    "answerIndex": 0
+    },
+    "question6": {
+    "question": "What is the scientific name for table salt?",
+    "options": [
+    "Sodium chloride",
+    "Calcium carbonate",
+    "Potassium chloride",
+    "Magnesium sulfate"
+    ],
+    "answerIndex": 0
+    },
+    "question7": {
+    "question": "What is the greenhouse gas that is most responsible for global warming?",
+    "options": [
+    "Carbon dioxide",
+    " Methane",
+    "Nitrous oxide",
+    "Water vapor"
+    ],
+    "answerIndex": 0
+    },
+    "question8": {
+    "question": "What is the term for the force that attracts objects with mass towards each other?",
+    "options": [
+    "Gravity",
+    "Electromagnetism",
+    "The strong nuclear force",
+    "The weak nuclear force"
+    ],
+    "answerIndex": 0
+    },
+    "question9": {
+    "question": "What is the scientific study of fossils called?",
+    "options": [
+    "Paleontology",
+    "Archaeology",
+    "Geology",
+    "Ecology"
+    ],
+    "answerIndex": 0
+    },
+    "question10": {
+    "question": "What is the process by which plants capture energy from sunlight to produce food?",
+    "options": [
+    "Photosynthesis",
+    "Cellular respiration",
+    "Fermentation",
+    "Chemosynthesis"
+    ],
+    "answerIndex": 0
+    }
+    },
+    
+    "history": {
+      "question6": {
+      "question": "What was the name of the Renaissance artist who painted the Mona Lisa?",
+      "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Sandro Botticelli",
+      "Raphael"
+      ],
+      "answerIndex": 0
+      },
+      "question7": {
+      "question": "What major world war began with the assassination of Archduke Franz Ferdinand?",
+      "options": [
+      "World War I",
+      "World War II",
+      "The Korean War",
+      "The Vietnam War"
+      ],
+      "answerIndex": 0
+      },
+      "question8": {
+      "question": "What event led to the rise of Adolf Hitler and the Nazi Party in Germany?",
+      "options": [
+      "The Treaty of Versailles after World War I",
+      "The French Revolution",
+      "The American Civil War",
+      "The Russian Revolution"
+      ],
+      "answerIndex": 0
+      },
+      "question9": {
+      "question": "Which city was the capital of the Mughal Empire in India?",
+      "options": [
+      "Agra",
+      "Delhi",
+      "Fatehpur Sikri",
+      "Lahore"
+      ],
+      "answerIndex": 1
+      },
+      "question10": {
+      "question": "What major revolution overthrew the Tsarist regime in Russia in 1917?",
+      "options": [
+      "The Bolshevik Revolution",
+      "The French Revolution",
+      "The American Revolution",
+      "The Chinese Revolution"
+      ],
+      "answerIndex": 0
+      },
+      "question11": {
+      "question": "What was the main cause of the American Civil War?",
+      "options": [
+      "Disagreements over slavery",
+      "States' rights versus federal power",
+      "Economic competition between the North and South",
+      "Tensions with neighboring countries"
+      ],
+      "answerIndex": 0
+      },
+      "question12": {
+      "question": "Who was the first emperor of a unified China?",
+      "options": [
+      "Qin Shi Huang",
+      "Genghis Khan",
+      "Kublai Khan",
+      "Mao Zedong"
+      ],
+      "answerIndex": 0
+      },
+      "question13": {
+      "question": "What major event marked the end of the Cold War?",
+      "options": [
+      "The fall of the Berlin Wall",
+      "The Cuban Missile Crisis",
+      "The Vietnam War",
+      "The Korean War"
+      ],
+      "answerIndex": 0
+      },
+      "question14": {
+      "question": "What is the name of the period in European history marked by a focus on classical learning and culture?",
+      "options": [
+      "The Renaissance",
+      "The Middle Ages",
+      "The Enlightenment",
+      "The Industrial Revolution"
+      ],
+      "answerIndex": 0
+      },
+      "question15": {
+      "question": "Which South American country gained independence from Spain under the leadership of Simón Bolívar?",
+      "options": [
+      "Venezuela",
+      "Colombia",
+      "Brazil",
+      "Argentina"
+      ],
+      "answerIndex": 1
+      }
+      },
+    
+      "general_knowledge": {
+        "question1": {
+        "question": "What is the world's most popular social media platform?",
+        "options": [
+        "Facebook",
+        "Twitter",
+        "Instagram",
+        "YouTube"
+        ],
+        "answerIndex": 0
+        },
+        "question2": {
+        "question": "What is the international symbol for the Olympic Games?",
+        "options": [
+        "Five interlocking rings",
+        "A burning torch",
+        "A laurel wreath",
+        "A globe"
+        ],
+        "answerIndex": 0
+        },
+        "question3": {
+        "question": "What is the largest desert in the world?",
+        "options": [
+        "Sahara Desert",
+        "Gobi Desert",
+        "Australian Outback",
+        "Kalahari Desert"
+        ],
+        "answerIndex": 0
+        },
+        "question4": {
+        "question": "What is the tallest building in the world?",
+        "options": [
+        "Burj Khalifa",
+        "Shanghai Tower",
+        "Abraj Al-Bait Clock Tower",
+        "Petronas Twin Towers"
+        ],
+        "answerIndex": 0
+        },
+        "question5": {
+        "question": "What is the name of the world's most famous landmark located in France?",
+        "options": [
+        "Eiffel Tower",
+        "Le Louvre Museum",
+        "Arc de Triomphe",
+        "Palace of Versailles"
+        ],
+        "answerIndex": 0
+        },
+        "question6": {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": [
+        "Diamond",
+        "Sapphire",
+        "Opal",
+        "Emerald"
+        ],
+        "answerIndex": 0
+        },
+        "question7": {
+        "question": "What is the most common language spoken in the world (by number of native speakers)?",
+        "options": [
+        "Mandarin Chinese",
+        "Spanish",
+        "English",
+        "Hindi"
+        ],
+        "answerIndex": 0
+        },
+        "question8": {
+        "question": "What is the largest living organism on Earth?",
+        "options": [
+        "Blue whale",
+        "Giant sequoia tree",
+        "Honey fungus",
+        "African elephant"
+        ],
+        "answerIndex": 1
+        },
+        "question9": {
+        "question": "What is the most valuable currency in the world?",
+        "options": [
+        " Kuwaiti dinar",
+        "Singapore dollar",
+        "Swiss franc",
+        "Euro"
+        ],
+        "answerIndex": 0
+        },
+        "question10": "What is the name of the first person to walk on the moon?",
+        "options": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Alan Shepard"
+        ],
+        "answerIndex": 0
+        },
+    
+    
+        "technology": {
+          "question11": {
+          "question": "What is the name of the technology that allows wireless charging of devices?",
+          "options": [
+          "Wireless inductive charging",
+          "Bluetooth",
+          "Near Field Communication (NFC)",
+          "Wi-Fi"
+          ],
+          "answerIndex": 0
+          },
+          "question12": {
+          "question": "What is the term for a computer program that can learn and improve from experience?",
+          "options": [
+          "Machine learning",
+          "Artificial intelligence (AI)",
+          "Database",
+          "Word processing software"
+          ],
+          "answerIndex": 1
+          },
+          "question13": {
+          "question": "What is the most common type of computer network used to connect devices within a home?",
+          "options": [
+          "Wireless Local Area Network (WLAN)",
+          "Wide Area Network (WAN)",
+          "Virtual Private Network (VPN)",
+          "Metropolitan Area Network (MAN)"
+          ],
+          "answerIndex": 0
+          },
+          "question14": {
+          "question": "What is the name of the global navigation system that uses satellites to determine location?",
+          "options": [
+          "Global Positioning System (GPS)",
+          "Geographic Information System (GIS)",
+          "Internet Protocol (IP)",
+          "Domain Name System (DNS)"
+          ],
+          "answerIndex": 0
+          },
+          "question15": {
+          "question": "What is the process of encrypting data to scramble it and make it unreadable without a decryption key?",
+          "options": [
+          "Encryption",
+          "Data compression",
+          "File sharing",
+          "Formatting"
+          ],
+          "answerIndex": 0
+          },
+          "question16": {
+          "question": "What is the term for a computer hacker who gains unauthorized access to computer systems?",
+          "options": [
+          "Black hat hacker",
+          "White hat hacker",
+          "Ethical hacker",
+          "Programmer"
+          ],
+          "answerIndex": 0
+          },
+          "question17": {
+          "question": "What is the name of the most popular search engine on the internet?",
+          "options": [
+          "Google",
+          "Bing",
+          "DuckDuckGo",
+          "Yahoo"
+          ],
+          "answerIndex": 0
+          },
+          "question18": {
+          "question": "What is the term for a digital representation of a physical object?",
+          "options": [
+          "3D model",
+          "Digital image",
+          "Spreadsheet",
+          "Presentation"
+          ],
+          "answerIndex": 0
+          },
+          "question19": {
+          "question": "What is the name of the type of computer that can be worn on the wrist?",
+          "options": [
+          "Smartwatch",
+          "Tablet computer",
+          "Laptop computer",
+          "Desktop computer"
+          ],
+          "answerIndex": 0
+          },
+          "question20": {
+          "question": "What is the term for sending unsolicited bulk emails for advertising purposes?",
+          "options": [
+          "Spam",
+          "Phishing",
+          "Malware",
+          "Virus"
+          ],
+          "answerIndex": 0
+          }
+          }
+        }
+    }
+    
